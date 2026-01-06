@@ -6,6 +6,7 @@ import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import googleCert from "../../Assets/google-it-automation.jpg";
+import ibmragcert from "../../Assets/IBM_RAG.jpg";
 import ibmCert from "../../Assets/IBM.jpg";
 import awsCert from "../../Assets/roshan.aws.jpg";
 
@@ -52,6 +53,11 @@ function About() {
                 <img src={googleCert} alt="Google IT Automation" className="img-fluid" />
             </Col>
             <Col xs={12} md={4} className="tech-icons">
+
+            <Col xs={12} md={4} className="tech-icons">
+                <img src={ibmragcert} alt="IBM Generative AI" className="img-fluid" />
+            </Col>
+            <Col xs={12} md={4} className="tech-icons">
               
                 <img src={ibmCert} alt="IBM Data-Science" className="img-fluid" />
             </Col>
@@ -68,4 +74,5 @@ function About() {
 }
 
 export default About;
+
 
