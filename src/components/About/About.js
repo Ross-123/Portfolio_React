@@ -7,7 +7,7 @@ import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import googleCert from "../../Assets/google-it-automation.jpg";
 import ibmCert from "../../Assets/IBM.jpg";
-import awsCert from "../../Assets/Roshan AWS.jpg";
+import awsCert from "../../Assets/roshan.aws.jpg";
 
 function About() {
   return (
@@ -68,3 +68,4 @@ function About() {
 }
 
 export default About;
+
