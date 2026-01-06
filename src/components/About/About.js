@@ -53,13 +53,10 @@ function About() {
                 <img src={googleCert} alt="Google IT Automation" className="img-fluid" />
             </Col>
             <Col xs={12} md={4} className="tech-icons">
-
-            <Col xs={12} md={4} className="tech-icons">
                 <img src={ibmragcert} alt="IBM Generative AI" className="img-fluid" />
             </Col>
             <Col xs={12} md={4} className="tech-icons">
-              
-                <img src={ibmCert} alt="IBM Data-Science" className="img-fluid" />
+              <img src={ibmCert} alt="IBM Data-Science" className="img-fluid" />
             </Col>
             <Col xs={12} md={4} className="tech-icons">
               <img src={awsCert} alt="AWS Cloud Practitioner" className="img-fluid" />
@@ -74,5 +71,6 @@ function About() {
 }
 
 export default About;
+
 
 
