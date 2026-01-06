@@ -7,7 +7,7 @@ import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/chatwithPDF.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import roshnet from "../../Assets/Projects/roshnet.png";
 
 function Projects() {
   return (
@@ -34,12 +34,12 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={roshnet}
               isBlog={false}
               title="Bits-0f-C0de"
               description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              ghLink="https://github.com/Ross-123/Roshnet-AITrader"
+              demoLink="roshnet-ai-trader.vercel.app"
             />
           </Col>
 
@@ -50,7 +50,7 @@ function Projects() {
               title="Chat-with-your-PDF"
               description="This app lets you upload any pdf document and chat with it. You can ask questions in natural language and gets answers based on the uploaded pdf document. LangGraph-driven RAG workflow with graph reasoning"
               ghLink="https://github.com/Ross-123/Chat-with-your-PDF"
-              demoLink="https://editor.soumya-jit.tech/"              
+              demoLink="https://chat-with-your-pdf-g6j7w7hbgpdrdiuwrwwu9x.streamlit.app/"              
             />
           </Col>
 
@@ -94,3 +94,4 @@ function Projects() {
 }
 
 export default Projects;
+
