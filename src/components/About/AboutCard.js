@@ -16,8 +16,8 @@ function AboutCard() {
                   from <span className="purple">Melbourne, Australia</span>.
                   <br />
                   I’m currently working as a{" "}
-                  <span className="purple">Data Analyst</span> at{" "}
-                  <span className="purple">Zirco Data</span>.
+                  <span className="purple">Software Developer</span> at{" "}
+                  <span className="purple">Freelancer</span>.
                   <br />My interests are in{" "}
                   <span className="purple">Developing AI agents, LLM integration, Web Development,{" "}Data Analysis</span>
                   <br />
@@ -46,3 +46,4 @@ function AboutCard() {
   );
 }
 export default AboutCard;
+
