@@ -36,10 +36,10 @@ function Projects() {
             <ProjectCard
               imgPath={roshnet}
               isBlog={false}
-              title="Bits-0f-C0de"
+              title="Roshnet-AI-Trader"
               description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
               ghLink="https://github.com/Ross-123/Roshnet-AITrader"
-              demoLink="roshnet-ai-trader.vercel.app"
+              demoLink="https://roshnet-ai-trader.vercel.app//"
             />
           </Col>
 
@@ -94,4 +94,5 @@ function Projects() {
 }
 
 export default Projects;
+
 
